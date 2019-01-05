@@ -397,7 +397,7 @@ slider-area
 }
 
 .single-slider {
-    background: url(../img/slider/1.jpg) no-repeat center center / cover;
+    background: url(../img/african/2.jpg) no-repeat center center / cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -421,19 +421,19 @@ slider-area
 }
 
 .slider-2 {
-    background: url(../img/slider/3.jpg) no-repeat center center / cover;
+    background: url(../img/casual/5.jpg) no-repeat center center / cover;
 }
 
 .slider-3 {
-    background: url(../img/slider/3.jpg) no-repeat center center / cover;
+    background: url(../img/casual/4.jpg) no-repeat center center / cover;
 }
 
 .single-slider2 {
-    background: url(../img/slider/5.jpg) no-repeat center center / cover;
+    background: url(../img/casual/5.jpg) no-repeat center center / cover;
 }
 
 .slider-4 {
-    background: url(../img/slider/4.jpg) no-repeat center center / cover;
+    background: url(../img/african/3.jpg) no-repeat center center / cover;
 }
 
 .slider-5 {
