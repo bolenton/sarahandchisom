@@ -1630,7 +1630,7 @@ Gift-area
 footer-area
 ===============================*/
 .footer-area {
-    background: url(../img/footer/1.jpg) no-repeat center center / cover;
+    background: url(../img/african/3.jpg) no-repeat center center / cover;
     padding: 100px 0;
     position: relative;
     z-index: 1;
@@ -1836,7 +1836,7 @@ home-page2
     background: url(../img/couple/7.png) no-repeat center center / cover;
 }
 .welcome-area2 {
-    background: url(../img/guest/2.jpg) no-repeat center center / cover;
+    background: url(../img/african/2.jpg) no-repeat center center / cover;
     position: relative;
     background-attachment: fixed;
 }

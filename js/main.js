@@ -19,6 +19,9 @@
     Window Load
     ==================================*/
     $(window).on('load', function() {
+        //var context = new AudioContext();
+        
+
         smoothScrolling($(".main-menu nav ul li a[href^='#']"), headerHeight);
         smoothScrolling($(".scrollup a[href^='#']"), 0);
         smoothScrolling($(".welcome-content .btn a[href^='#']"), 0);
@@ -26,6 +29,23 @@
         $('.slider-parallax').addClass('scontent_loaded');
         sliderLoadedAddClass();
         preloader()
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();   
+        });
+
+        // One-liner to resume playback when user interacted with the page.
+        // document.querySelector('button').addEventListener('click', function() {
+        //     context.resume().then(() => {
+        //         console.log('Playback resumed successfully');
+        //         $('.music-box-toggle-btn').click();
+        //         setTimeout(() => {
+        //             test = $('.playButton');
+        //             test.click()
+        //         }, 1500)
+        //         console.log(test)
+        //         //soundcloudPlayBtn.click();
+        //     });
+        // });
     })
 
 
