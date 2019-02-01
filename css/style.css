@@ -1691,12 +1691,17 @@ home-page2
     font-size: 72px;
     font-family: 'Great Vibes', cursive;
     background: url(../img/slider/2.png) no-repeat center center / cover;
-    padding: 54px;
-    width: 657px;
-    height: 200px;
+    padding: 55px 70px 0 70px;
     margin: auto;
+    width: 700;
+    height: 275;
     color: #fff;
     position: relative;
+}
+
+.slider-content2 h4 strong {
+    padding: 0px;
+    margin: 0px;
 }
 .slider-content2 {
     margin-top: 87px;
