@@ -1381,12 +1381,36 @@ gallery-area
     border-radius: 50px;
 }
 
+.gallery-menu2 button {
+    font-size: 17px;
+    font-weight: 500;
+    color: #9a8c40;
+    letter-spacing: 0;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+    border: 2px solid #c2b673;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
 .gallery-menu {
+    padding-bottom: 60px;
+}
+
+.gallery-menu2 {
     padding-bottom: 60px;
 }
 
 .gallery-menu button.active {
     background: #4e7b72;
+    color: #fff;
+}
+
+.gallery-menu2 button.active {
+    background: #9a8c40;
     color: #fff;
 }
 
